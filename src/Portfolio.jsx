@@ -181,7 +181,7 @@ const Portfolio = () => {
                     <div className="flex justify-between items-center">
                         <div className="text-2xl font-bold tracking-tight relative overflow-hidden">
                             <span className="inline-block transform hover:scale-105 transition-transform duration-300">
-                                Arpit Pattani
+                                <img src="/logo.png" style={{ height: '40px' }} alt="Logo" />
                             </span>
                             <div
                                 className={`absolute bottom-0 left-0 w-full h-0.5 transform translate-x-full transition-transform duration-500 ${darkMode ? "bg-emerald-400" : "bg-emerald-600"}`}

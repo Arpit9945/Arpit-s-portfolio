@@ -15,9 +15,9 @@ const Portfolio = () => {
                 radar: {
                     indicator: [
                         { name: "React", max: 100 },
-                        { name: "JavaScript", max: 100 },
-                        { name: "HTML/CSS", max: 100 },
+                        { name: "JS", max: 100 },
                         { name: "Redux", max: 100 },
+                        { name: "Firebase", max: 100 },
                         { name: "Next.js", max: 100 },
                         { name: "PHP", max: 100 },
                     ],

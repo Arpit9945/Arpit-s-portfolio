@@ -208,14 +208,8 @@ const Portfolio = () => {
                             <button
                                 onClick={toggleDarkMode}
                                 className={`p-2 rounded-full transition-colors duration-300 cursor-pointer whitespace-nowrap !rounded-button ${darkMode ? "bg-gray-800 text-yellow-300 hover:bg-gray-700" : "bg-gray-100 text-indigo-600 hover:bg-gray-200"}`}
-                                aria-label="Toggle dark mode"
-                            >
-                                <i
-                                    className={`fas ${darkMode ? "fa-sun" : "fa-moon"} text-lg`}
-                                ></i>
-                            </button>
-                            <button className="md:hidden text-2xl cursor-pointer whitespace-nowrap !rounded-button">
-                                <i className="fas fa-bars"></i>
+                                aria-label="Toggle dark mode">
+                                <i className={`fas ${darkMode ? "fa-sun" : "fa-moon"} text-lg`}></i>
                             </button>
                         </div>
                     </div>
@@ -225,8 +219,7 @@ const Portfolio = () => {
                 {/* Hero Section */}
                 <section
                     id="home"
-                    className="min-h-screen flex items-center relative overflow-hidden pt-20"
-                >
+                    className="min-h-screen flex items-center relative overflow-hidden pt-20">
                     <div className="container mx-auto px-6 py-12 md:py-24 relative z-10">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
                             <div className="animate-on-scroll" data-aos="fade-right">
